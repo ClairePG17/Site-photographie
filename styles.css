@@ -299,4 +299,30 @@ th{
 table{
     border-collapse: collapse;
     margin-bottom: 374px;
+    width: 100%;
 }
+
+/********** PAGE PORTOFOLIO **********/
+.container-photos {
+    display: flex;
+    flex-direction: column;
+    padding: 53px 168px 140px 168px;
+}
+
+.container-portofolio h1 {
+    background-color: var(--main-bg-color);
+    padding: 140px 168px 100px 168px;
+}
+
+/* Section paysages */
+.paysages h2, .Portraits h2 {
+    margin-bottom: 53px;
+}
+
+.paysages div, .Portraits div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+/* Section portraits*/
