@@ -12,61 +12,63 @@
 
 <body>
     <header>
+        <a href=index.html><img src="images/logo.png" alt="Logo Robbie Lens"></a>
         <nav>
-            <a href=index.html><img src="images/logo.png" alt="Logo Robbie Lens"></a>
             <a href="index.html">Accueil</a>
-            <a href="dossier demo/a-propos.html">À propos</a>
+            <a href="a-propos.html">À propos</a>
             <a href="tarifs.html">Tarifs</a>
-            <a href="portofolio.html">Portofollio</a>
+            <a href="portofolio.html">Portofolio</a>
         </nav>
     </header>
 
     <main>
 
-        <section>
-            <h1>Robbie Lens Photographie</h1>
-            <p class="contenu">
-                Où <em>professionalisme</em> s’allie avec <em>passion</em>. 
-                Depuis plus de 5 ans maintenant, j’exerce mon métier avec la passion
-                qui m’anime : capturer l’essence de chaque instant.
-            </p>
-            <img src="images/robbie-lens.png" alt="Portrait de la photographe Robbie Lens">
-            <a href="" class="PROJET">UN PROJET ? ÉCRIVEZ-MOI</a>
+        <section class="presentation">
+            <div class="presentation-content">
+                <h1>Robbie Lens Photographie</h1>
+                <p class="contenu">
+                    Où <em>professionalisme</em> s’allie avec <em>passion</em>. <br>
+                    Depuis plus de 5 ans maintenant, j’exerce mon métier avec la passion
+                    qui m’anime : capturer l’essence de chaque instant.
+                </p>
+                <a class="button" href="#" class="PROJET">UN PROJET ? ÉCRIVEZ-MOI</a>
+            </div>    
+            <img src="images/aiony-haust-3TLl_97HNJo-unsplash 6.png" alt="Portrait de la photographe Robbie Lens">
         </section>
 
-        <section>
+        <section class="projet">
             <h2>Mon dernier projet</h2>
-            <div>
-                <img src="images/Portofollio/Rectangle 29.png" alt="Photographie1">
-                <img src="images/Portofollio/Rectangle 30.png" alt="Photographie2">
-                <img src="images/Portofollio/Rectangle 31.png" alt="Photographie3">
-                <img src="images/Portofollio/Rectangle 32.png" alt="Photographie4">
-                <img src="images/Portofollio/Rectangle 33.png" alt="Photographie4">
-                <img src="images/Portofollio/Rectangle 34.png" alt="Photographie5">
+            <div class="projet-images">
+                <img src="images/Portofollio/Rectangle29.png" alt="Photographie1">
+                <img src="images/Portofollio/Rectangle30.png" alt="Photographie2">
+                <img src="images/Portofollio/Rectangle31.png" alt="Photographie3">
+                <img src="images/Portofollio/Rectangle32.png" alt="Photographie4">
+                <img src="images/Portofollio/Rectangle33.png" alt="Photographie5">
+                <img src="images/Portofollio/Rectangle34.png" alt="Photographie6">
             </div>
-            <a href="">VOIR MON PORTFOLLIO</a>
+            <a class="button" href="#">VOIR MON PORTFOLLIO</a>
         </section>
 
-        <section>
+        <section class="form">
             <h2>Parlons de votre projet</h2>
             <div>
-                <fieldset class="form-name-email">
-                    <form method="get" action="">
+                <div class="form-name-email">
+                    <form class="form1and2" method="get" action="#">
                         <label for="nom">nom</label><br>
                         <input type="text" name="nom" id="nom">
                     </form>
-                    <form method="get" action="">
+                    <form class="form1and2" method="get" action="#">
                         <label for="email">email</label><br>
                         <input type="text" name="email" id="email">
                     </form>
-                </fieldset>
+                </div>
                 <div class="form-message">
-                    <form method="get" action="">
+                    <form class="form3" method="get" action="#">
                         <label for="commentaire">message</label><br>
                         <textarea name="commentaire" id="commentaire"></textarea>
                     </form>
                 </div>
-                <input type="submit" value="envoyer">
+                <input class="button sent" type="submit" value="ENVOYER">
             </div>
         </section>
 
@@ -75,11 +77,11 @@
     <footer>
         <img src="images/logo.png" alt="Logo Robbie Lens">
         <div>
-            <a class="lien-icone" target="_blank" href="https://twitter.com/">
-                <img src="images/twitter.png" alt="Logo Twitter">
-            </a>
             <a class="lien-icone" target="_blank" href="https://www.instagram.com/">
                 <img src="images/instagram.png" alt="Logo Instagram">
+            </a>
+            <a class="lien-icone" target="_blank" href="https://twitter.com/">
+                <img src="images/twitter.png" alt="Logo Twitter">
             </a>
         </div>
     </footer>
