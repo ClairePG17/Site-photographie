@@ -29,6 +29,22 @@ h2{
     font-weight: normal;
 }
 
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: var(--filter-bg-color);
+    margin-bottom: 0;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--filter-bg-color);
+    margin-bottom: 0;
+}
+
 p {
     font-size: 20px;
     font-weight: normal;
@@ -70,6 +86,10 @@ nav a{
     color: var(--text-second-color);
 }
 
+img {
+    object-fit: contain;
+}
+
 /********** MAIN ACCUEIL **********/
 
 /* section presentation */
@@ -95,7 +115,6 @@ nav a{
 .presentation img {
     width: 50%;
     height: 425px;
-    object-fit: contain;
     border-bottom: 1px solid var(--filter-bg-color);
     border-right: 1px solid var(--filter-bg-color);
     padding : 26px;
@@ -154,7 +173,7 @@ nav a{
 }
 
 .form3 textarea {
-    width: 525px;
+    width: 526px;
     height: 207px;
     margin-top: 10px;
     margin-bottom: 44px;
@@ -177,4 +196,107 @@ footer {
 footer div {
     display: flex;
     gap: 30px;
+}
+
+/********** PAGE A PROPOS **********/
+.container-a-propos{
+    background-color: var(--main-bg-color);
+    color: var(--text-main-color);
+}
+
+/* Images-multiples*/
+
+.images-multiples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+    padding: 140px 198px;
+}
+
+.images-multiples img {
+    width : calc(20% - 21px);
+    height: 211px;
+}
+
+/* A propos */
+.h1-a-propos {
+    padding-left:347px;
+}
+
+.a-propos2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 101px 423px 80px 423px;
+}
+
+.a-propos2 .sent {
+    margin-top: 155px;
+    margin-bottom: 130px;
+}
+
+/********** PAGE TARIFS **********/
+.container-tarifs{
+    background-color: var(--main-bg-color);
+    color: var(--text-main-color);
+    padding: 146px 200px 53px 200px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 85px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-right: 1px solid var(--filter-bg-color);
+    border-bottom: 1px solid var(--filter-bg-color);
+}
+
+.card p{
+    font-size: 14px;
+    padding-right: 40px;
+    padding-bottom: 35px;
+    padding-top: 21px;
+}
+
+.card .subtitle {
+    font-size: 10px;
+    padding-bottom: 55px;
+}
+
+/*section tarifs */
+.taris{
+    display: flex;
+    flex-direction: column;
+}
+
+.tarifs h2{
+    color: var(--filter-bg-color);
+    margin-bottom: 38px;
+}
+
+td {
+    border: 1px, solid var(--filter-bg-color);
+    padding: 44px 73px;
+}
+
+th{
+    border: 1px, solid var(--filter-bg-color);
+    padding: 9px 90px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 374px;
 }
